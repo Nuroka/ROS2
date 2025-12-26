@@ -1,0 +1,21 @@
+[0.528s] Invoking command in '/home/ssafy/ssafy_ws/src/simple_car_tf': PYTHONPATH=/home/ssafy/ssafy_ws/build/simple_car_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/simple_car_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_car_tf build --build-base /home/ssafy/ssafy_ws/build/simple_car_tf/build install --record /home/ssafy/ssafy_ws/build/simple_car_tf/install.log --single-version-externally-managed install_data
+[0.677s] running egg_info
+[0.677s] writing ../../build/simple_car_tf/simple_car_tf.egg-info/PKG-INFO
+[0.677s] writing dependency_links to ../../build/simple_car_tf/simple_car_tf.egg-info/dependency_links.txt
+[0.677s] writing entry points to ../../build/simple_car_tf/simple_car_tf.egg-info/entry_points.txt
+[0.677s] writing requirements to ../../build/simple_car_tf/simple_car_tf.egg-info/requires.txt
+[0.677s] writing top-level names to ../../build/simple_car_tf/simple_car_tf.egg-info/top_level.txt
+[0.678s] reading manifest file '../../build/simple_car_tf/simple_car_tf.egg-info/SOURCES.txt'
+[0.679s] writing manifest file '../../build/simple_car_tf/simple_car_tf.egg-info/SOURCES.txt'
+[0.679s] running build
+[0.679s] running build_py
+[0.679s] running install
+[0.679s] running install_lib
+[0.680s] running install_data
+[0.680s] running install_egg_info
+[0.681s] removing '/home/ssafy/ssafy_ws/install/simple_car_tf/lib/python3.10/site-packages/simple_car_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[0.681s] Copying ../../build/simple_car_tf/simple_car_tf.egg-info to /home/ssafy/ssafy_ws/install/simple_car_tf/lib/python3.10/site-packages/simple_car_tf-0.0.0-py3.10.egg-info
+[0.682s] running install_scripts
+[0.694s] Installing move_car script to /home/ssafy/ssafy_ws/install/simple_car_tf/lib/simple_car_tf
+[0.694s] writing list of installed files to '/home/ssafy/ssafy_ws/build/simple_car_tf/install.log'
+[0.709s] Invoked command in '/home/ssafy/ssafy_ws/src/simple_car_tf' returned '0': PYTHONPATH=/home/ssafy/ssafy_ws/build/simple_car_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/simple_car_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_car_tf build --build-base /home/ssafy/ssafy_ws/build/simple_car_tf/build install --record /home/ssafy/ssafy_ws/build/simple_car_tf/install.log --single-version-externally-managed install_data

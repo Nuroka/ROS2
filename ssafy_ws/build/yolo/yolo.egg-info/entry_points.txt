@@ -1,0 +1,5 @@
+[console_scripts]
+getDistance = yolo.getDistance:main
+websocket_client = yolo.websocket_client:main
+yolo = yolo.yolo:main
+yolo_prac = yolo.yolo_prac:main

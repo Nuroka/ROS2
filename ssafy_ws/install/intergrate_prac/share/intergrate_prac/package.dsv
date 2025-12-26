@@ -1,0 +1,6 @@
+source;share/intergrate_prac/hook/pythonpath.ps1
+source;share/intergrate_prac/hook/pythonpath.dsv
+source;share/intergrate_prac/hook/pythonpath.sh
+source;share/intergrate_prac/hook/ament_prefix_path.ps1
+source;share/intergrate_prac/hook/ament_prefix_path.dsv
+source;share/intergrate_prac/hook/ament_prefix_path.sh

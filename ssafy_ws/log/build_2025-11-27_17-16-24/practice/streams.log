@@ -1,0 +1,32 @@
+[1.509s] Invoking command in '/home/ssafy/ssafy_ws/src/practice': PYTHONPATH=/home/ssafy/ssafy_ws/build/practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practice build --build-base /home/ssafy/ssafy_ws/build/practice/build install --record /home/ssafy/ssafy_ws/build/practice/install.log --single-version-externally-managed install_data
+[1.709s] running egg_info
+[1.710s] creating ../../build/practice/practice.egg-info
+[1.721s] writing ../../build/practice/practice.egg-info/PKG-INFO
+[1.722s] writing dependency_links to ../../build/practice/practice.egg-info/dependency_links.txt
+[1.722s] writing requirements to ../../build/practice/practice.egg-info/requires.txt
+[1.722s] writing top-level names to ../../build/practice/practice.egg-info/top_level.txt
+[1.722s] writing manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+[1.745s] reading manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+[1.746s] writing manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+[1.746s] running build
+[1.746s] running build_py
+[1.746s] creating /home/ssafy/ssafy_ws/build/practice/build
+[1.746s] creating /home/ssafy/ssafy_ws/build/practice/build/lib
+[1.746s] creating /home/ssafy/ssafy_ws/build/practice/build/lib/practice
+[1.746s] copying practice/__init__.py -> /home/ssafy/ssafy_ws/build/practice/build/lib/practice
+[1.746s] running install
+[1.750s] running install_lib
+[1.762s] creating /home/ssafy/ssafy_ws/install/practice/lib/python3.10/site-packages/practice
+[1.762s] copying /home/ssafy/ssafy_ws/build/practice/build/lib/practice/__init__.py -> /home/ssafy/ssafy_ws/install/practice/lib/python3.10/site-packages/practice
+[1.763s] byte-compiling /home/ssafy/ssafy_ws/install/practice/lib/python3.10/site-packages/practice/__init__.py to __init__.cpython-310.pyc
+[1.763s] running install_data
+[1.763s] creating /home/ssafy/ssafy_ws/install/practice/share/ament_index
+[1.763s] creating /home/ssafy/ssafy_ws/install/practice/share/ament_index/resource_index
+[1.763s] creating /home/ssafy/ssafy_ws/install/practice/share/ament_index/resource_index/packages
+[1.763s] copying resource/practice -> /home/ssafy/ssafy_ws/install/practice/share/ament_index/resource_index/packages
+[1.763s] copying package.xml -> /home/ssafy/ssafy_ws/install/practice/share/practice
+[1.764s] running install_egg_info
+[1.776s] Copying ../../build/practice/practice.egg-info to /home/ssafy/ssafy_ws/install/practice/lib/python3.10/site-packages/practice-0.0.0-py3.10.egg-info
+[1.776s] running install_scripts
+[1.880s] writing list of installed files to '/home/ssafy/ssafy_ws/build/practice/install.log'
+[1.911s] Invoked command in '/home/ssafy/ssafy_ws/src/practice' returned '0': PYTHONPATH=/home/ssafy/ssafy_ws/build/practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practice build --build-base /home/ssafy/ssafy_ws/build/practice/build install --record /home/ssafy/ssafy_ws/build/practice/install.log --single-version-externally-managed install_data

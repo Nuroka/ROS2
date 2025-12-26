@@ -1,0 +1,4 @@
+[console_scripts]
+imu_sub = sensor_sub_pkg.imu_subscriber:main
+laser_sub = sensor_sub_pkg.laser_subscriber:main
+odom_sub = sensor_sub_pkg.odom_subscriber:main

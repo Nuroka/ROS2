@@ -1,0 +1,35 @@
+[1.646s] Invoking command in '/home/ssafy/ssafy_ws/src/practice': PYTHONPATH=/home/ssafy/ssafy_ws/build/practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practice build --build-base /home/ssafy/ssafy_ws/build/practice/build install --record /home/ssafy/ssafy_ws/build/practice/install.log --single-version-externally-managed install_data
+[1.851s] running egg_info
+[1.862s] writing ../../build/practice/practice.egg-info/PKG-INFO
+[1.862s] writing dependency_links to ../../build/practice/practice.egg-info/dependency_links.txt
+[1.862s] writing entry points to ../../build/practice/practice.egg-info/entry_points.txt
+[1.863s] writing requirements to ../../build/practice/practice.egg-info/requires.txt
+[1.863s] writing top-level names to ../../build/practice/practice.egg-info/top_level.txt
+[1.887s] reading manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+[1.888s] writing manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+[1.888s] running build
+[1.888s] running build_py
+[1.888s] copying practice/yolov5.py -> /home/ssafy/ssafy_ws/build/practice/build/lib/practice
+[1.888s] copying practice/4014_1.py -> /home/ssafy/ssafy_ws/build/practice/build/lib/practice
+[1.888s] copying practice/4008.py -> /home/ssafy/ssafy_ws/build/practice/build/lib/practice
+[1.888s] copying practice/4014_2.py -> /home/ssafy/ssafy_ws/build/practice/build/lib/practice
+[1.888s] copying practice/4014_3.py -> /home/ssafy/ssafy_ws/build/practice/build/lib/practice
+[1.888s] copying practice/4007.py -> /home/ssafy/ssafy_ws/build/practice/build/lib/practice
+[1.889s] copying practice/__init__.py -> /home/ssafy/ssafy_ws/build/practice/build/lib/practice
+[1.889s] running install
+[1.893s] running install_lib
+[1.906s] running install_data
+[1.906s] copying resource/practice -> /home/ssafy/ssafy_ws/install/practice/share/ament_index/resource_index/packages
+[1.906s] copying package.xml -> /home/ssafy/ssafy_ws/install/practice/share/practice
+[1.906s] running install_egg_info
+[1.919s] removing '/home/ssafy/ssafy_ws/install/practice/lib/python3.10/site-packages/practice-0.0.0-py3.10.egg-info' (and everything under it)
+[1.920s] Copying ../../build/practice/practice.egg-info to /home/ssafy/ssafy_ws/install/practice/lib/python3.10/site-packages/practice-0.0.0-py3.10.egg-info
+[1.920s] running install_scripts
+[2.029s] Installing 4007 script to /home/ssafy/ssafy_ws/install/practice/lib/practice
+[2.029s] Installing 4008 script to /home/ssafy/ssafy_ws/install/practice/lib/practice
+[2.030s] Installing 4014_1 script to /home/ssafy/ssafy_ws/install/practice/lib/practice
+[2.030s] Installing 4014_2 script to /home/ssafy/ssafy_ws/install/practice/lib/practice
+[2.030s] Installing 4014_3 script to /home/ssafy/ssafy_ws/install/practice/lib/practice
+[2.030s] Installing yolov5 script to /home/ssafy/ssafy_ws/install/practice/lib/practice
+[2.030s] writing list of installed files to '/home/ssafy/ssafy_ws/build/practice/install.log'
+[2.063s] Invoked command in '/home/ssafy/ssafy_ws/src/practice' returned '0': PYTHONPATH=/home/ssafy/ssafy_ws/build/practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practice build --build-base /home/ssafy/ssafy_ws/build/practice/build install --record /home/ssafy/ssafy_ws/build/practice/install.log --single-version-externally-managed install_data

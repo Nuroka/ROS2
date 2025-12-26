@@ -1,0 +1,27 @@
+[1.414s] Invoking command in '/home/ssafy/ssafy_ws/src/slam_control': PYTHONPATH=/home/ssafy/ssafy_ws/build/slam_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/slam_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_control build --build-base /home/ssafy/ssafy_ws/build/slam_control/build install --record /home/ssafy/ssafy_ws/build/slam_control/install.log --single-version-externally-managed install_data
+[1.616s] running egg_info
+[1.627s] writing ../../build/slam_control/slam_control.egg-info/PKG-INFO
+[1.628s] writing dependency_links to ../../build/slam_control/slam_control.egg-info/dependency_links.txt
+[1.628s] writing requirements to ../../build/slam_control/slam_control.egg-info/requires.txt
+[1.628s] writing top-level names to ../../build/slam_control/slam_control.egg-info/top_level.txt
+[1.652s] reading manifest file '../../build/slam_control/slam_control.egg-info/SOURCES.txt'
+[1.653s] writing manifest file '../../build/slam_control/slam_control.egg-info/SOURCES.txt'
+[1.653s] running build
+[1.653s] running build_py
+[1.653s] copying slam_control/waypoints_move.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+[1.653s] copying slam_control/patrol_move.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+[1.653s] copying slam_control/init_pose.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+[1.653s] copying slam_control/waypoints_follwer.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+[1.653s] copying slam_control/simple_move.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+[1.653s] copying slam_control/__init__.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+[1.654s] running install
+[1.659s] running install_lib
+[1.670s] running install_data
+[1.670s] copying resource/slam_control -> /home/ssafy/ssafy_ws/install/slam_control/share/ament_index/resource_index/packages
+[1.670s] copying package.xml -> /home/ssafy/ssafy_ws/install/slam_control/share/slam_control
+[1.671s] running install_egg_info
+[1.683s] removing '/home/ssafy/ssafy_ws/install/slam_control/lib/python3.10/site-packages/slam_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.683s] Copying ../../build/slam_control/slam_control.egg-info to /home/ssafy/ssafy_ws/install/slam_control/lib/python3.10/site-packages/slam_control-0.0.0-py3.10.egg-info
+[1.684s] running install_scripts
+[1.791s] writing list of installed files to '/home/ssafy/ssafy_ws/build/slam_control/install.log'
+[1.819s] Invoked command in '/home/ssafy/ssafy_ws/src/slam_control' returned '0': PYTHONPATH=/home/ssafy/ssafy_ws/build/slam_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/slam_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_control build --build-base /home/ssafy/ssafy_ws/build/slam_control/build install --record /home/ssafy/ssafy_ws/build/slam_control/install.log --single-version-externally-managed install_data

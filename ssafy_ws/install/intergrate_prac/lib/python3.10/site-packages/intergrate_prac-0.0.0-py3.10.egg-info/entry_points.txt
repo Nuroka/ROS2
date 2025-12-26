@@ -1,0 +1,2 @@
+[console_scripts]
+image_subscriber = intergrate_prac.image_subscriber:main

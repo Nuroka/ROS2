@@ -1,0 +1,40 @@
+[0.000000] (-) TimerEvent: {}
+[0.000165] (dobot_control) JobQueued: {'identifier': 'dobot_control', 'dependencies': OrderedDict()}
+[0.000283] (intergrate_prac) JobQueued: {'identifier': 'intergrate_prac', 'dependencies': OrderedDict()}
+[0.000310] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000322] (practice) JobQueued: {'identifier': 'practice', 'dependencies': OrderedDict()}
+[0.000334] (sensor_sub_pkg) JobQueued: {'identifier': 'sensor_sub_pkg', 'dependencies': OrderedDict()}
+[0.000343] (simple_car_tf) JobQueued: {'identifier': 'simple_car_tf', 'dependencies': OrderedDict()}
+[0.000351] (slam_control) JobQueued: {'identifier': 'slam_control', 'dependencies': OrderedDict()}
+[0.000360] (socket) JobQueued: {'identifier': 'socket', 'dependencies': OrderedDict()}
+[0.000368] (yolo) JobQueued: {'identifier': 'yolo', 'dependencies': OrderedDict()}
+[0.000377] (dobot_control) JobStarted: {'identifier': 'dobot_control'}
+[0.006005] (intergrate_prac) JobStarted: {'identifier': 'intergrate_prac'}
+[0.009603] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.014403] (practice) JobStarted: {'identifier': 'practice'}
+[0.018392] (sensor_sub_pkg) JobStarted: {'identifier': 'sensor_sub_pkg'}
+[0.022341] (simple_car_tf) JobStarted: {'identifier': 'simple_car_tf'}
+[0.026410] (slam_control) JobStarted: {'identifier': 'slam_control'}
+[0.030752] (socket) JobStarted: {'identifier': 'socket'}
+[0.034340] (yolo) JobStarted: {'identifier': 'yolo'}
+[0.099235] (-) TimerEvent: {}
+[0.199444] (-) TimerEvent: {}
+[0.299708] (-) TimerEvent: {}
+[0.400071] (-) TimerEvent: {}
+[0.500332] (-) TimerEvent: {}
+[0.600561] (-) TimerEvent: {}
+[0.700854] (-) TimerEvent: {}
+[0.801161] (-) TimerEvent: {}
+[0.901509] (-) TimerEvent: {}
+[1.001687] (-) TimerEvent: {}
+[1.047890] (socket) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[1.048916] (socket) JobEnded: {'identifier': 'socket', 'rc': 1}
+[1.049144] (dobot_control) JobEnded: {'identifier': 'dobot_control', 'rc': 'SIGINT'}
+[1.049373] (intergrate_prac) JobEnded: {'identifier': 'intergrate_prac', 'rc': 'SIGINT'}
+[1.049488] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 'SIGINT'}
+[1.049571] (practice) JobEnded: {'identifier': 'practice', 'rc': 'SIGINT'}
+[1.049656] (sensor_sub_pkg) JobEnded: {'identifier': 'sensor_sub_pkg', 'rc': 'SIGINT'}
+[1.049743] (simple_car_tf) JobEnded: {'identifier': 'simple_car_tf', 'rc': 'SIGINT'}
+[1.049813] (slam_control) JobEnded: {'identifier': 'slam_control', 'rc': 'SIGINT'}
+[1.049879] (yolo) JobEnded: {'identifier': 'yolo', 'rc': 'SIGINT'}
+[1.059156] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/dobot_control/dobot_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_control/dobot_control.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_control/dobot_control.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_control/dobot_control.egg-info/requires.txt
+writing top-level names to ../../build/dobot_control/dobot_control.egg-info/top_level.txt
+reading manifest file '../../build/dobot_control/dobot_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_control/dobot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying resource/dobot_control -> /home/ssafy/ssafy_ws/install/dobot_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/ssafy_ws/install/dobot_control/share/dobot_control
+running install_egg_info
+removing '/home/ssafy/ssafy_ws/install/dobot_control/lib/python3.10/site-packages/dobot_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/dobot_control/dobot_control.egg-info to /home/ssafy/ssafy_ws/install/dobot_control/lib/python3.10/site-packages/dobot_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ptp_move script to /home/ssafy/ssafy_ws/install/dobot_control/lib/dobot_control
+Installing suction_cup_control script to /home/ssafy/ssafy_ws/install/dobot_control/lib/dobot_control
+writing list of installed files to '/home/ssafy/ssafy_ws/build/dobot_control/install.log'

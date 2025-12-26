@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot name="TDOR_ROBOT" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ============================== -->
+  <!-- 1. base_link (cylinder)        -->
+  <!-- ============================== -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="1.0" length="0.2"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1.0 1.0 1.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ============================== -->
+  <!-- 2. joint1 링크 (box)           -->
+  <!-- ============================== -->
+  <link name="joint1">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.5"/>
+      </geometry>
+      <material name="orange">
+        <color rgba="1.0 0.5 0.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ============================== -->
+  <!-- 3. revolute joint              -->
+  <!-- ============================== -->
+  <joint name="joint1_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="joint1"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+
+</robot>

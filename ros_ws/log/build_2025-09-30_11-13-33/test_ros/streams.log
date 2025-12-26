@@ -1,0 +1,24 @@
+[0.342s] Invoking command in '/home/ssafy/ros_ws/src/test_ros': PYTHONPATH=/home/ssafy/ros_ws/build/test_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ros_ws/install/test_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_ros build --build-base /home/ssafy/ros_ws/build/test_ros/build install --record /home/ssafy/ros_ws/build/test_ros/install.log --single-version-externally-managed install_data
+[0.477s] running egg_info
+[0.477s] writing ../../build/test_ros/test_ros.egg-info/PKG-INFO
+[0.477s] writing dependency_links to ../../build/test_ros/test_ros.egg-info/dependency_links.txt
+[0.478s] writing entry points to ../../build/test_ros/test_ros.egg-info/entry_points.txt
+[0.478s] writing requirements to ../../build/test_ros/test_ros.egg-info/requires.txt
+[0.478s] writing top-level names to ../../build/test_ros/test_ros.egg-info/top_level.txt
+[0.479s] reading manifest file '../../build/test_ros/test_ros.egg-info/SOURCES.txt'
+[0.479s] writing manifest file '../../build/test_ros/test_ros.egg-info/SOURCES.txt'
+[0.479s] running build
+[0.479s] running build_py
+[0.479s] copying test_ros/publisher_node.py -> /home/ssafy/ros_ws/build/test_ros/build/lib/test_ros
+[0.479s] running install
+[0.479s] running install_lib
+[0.480s] copying /home/ssafy/ros_ws/build/test_ros/build/lib/test_ros/publisher_node.py -> /home/ssafy/ros_ws/install/test_ros/lib/python3.10/site-packages/test_ros
+[0.480s] byte-compiling /home/ssafy/ros_ws/install/test_ros/lib/python3.10/site-packages/test_ros/publisher_node.py to publisher_node.cpython-310.pyc
+[0.480s] running install_data
+[0.481s] running install_egg_info
+[0.482s] removing '/home/ssafy/ros_ws/install/test_ros/lib/python3.10/site-packages/test_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[0.482s] Copying ../../build/test_ros/test_ros.egg-info to /home/ssafy/ros_ws/install/test_ros/lib/python3.10/site-packages/test_ros-0.0.0-py3.10.egg-info
+[0.482s] running install_scripts
+[0.495s] Installing publisher_node script to /home/ssafy/ros_ws/install/test_ros/lib/test_ros
+[0.495s] writing list of installed files to '/home/ssafy/ros_ws/build/test_ros/install.log'
+[0.509s] Invoked command in '/home/ssafy/ros_ws/src/test_ros' returned '0': PYTHONPATH=/home/ssafy/ros_ws/build/test_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ros_ws/install/test_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_ros build --build-base /home/ssafy/ros_ws/build/test_ros/build install --record /home/ssafy/ros_ws/build/test_ros/install.log --single-version-externally-managed install_data

@@ -1,0 +1,78 @@
+[0.011s] Invoking command in '/home/ssafy/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:/home/ssafy/ssafy_ws/install/simple_car_tf:/opt/ros/humble LD_LIBRARY_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ssafy/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.113s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.177s] -- Detecting C compile features
+[0.177s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.247s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.247s] -- Detecting CXX compile features
+[0.247s] -- Detecting CXX compile features - done
+[0.249s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.368s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.419s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.438s] -- Found dynamixel_sdk: 3.8.4 (/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.439s] -- Found dynamixel_sdk_custom_interfaces: 3.8.4 (/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.462s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.465s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.471s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.507s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.539s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.542s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.622s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.642s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.670s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.678s] -- Looking for pthread.h
+[0.741s] -- Looking for pthread.h - found
+[0.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.804s] -- Found Threads: TRUE  
+[0.846s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.848s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.910s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.911s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.911s] -- Configured cppcheck include dirs: /home/ssafy/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[0.911s] -- Configured cppcheck exclude dirs and/or files: 
+[0.912s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.912s] -- Configured cpplint exclude dirs and/or files: 
+[0.912s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.912s] -- Added test 'lint_cmake' to check CMake code style
+[0.913s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.913s] -- Added test 'uncrustify' to check C / C++ code style
+[0.913s] -- Configured uncrustify additional arguments: 
+[0.913s] -- Added test 'xmllint' to check XML markup files
+[0.914s] -- Configuring done
+[0.919s] -- Generating done
+[0.921s] -- Build files have been written to: /home/ssafy/turtlebot3_ws/build/dynamixel_sdk_examples
+[0.928s] Invoked command in '/home/ssafy/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:/home/ssafy/ssafy_ws/install/simple_car_tf:/opt/ros/humble LD_LIBRARY_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ssafy/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples
+[0.929s] Invoking command in '/home/ssafy/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:/home/ssafy/ssafy_ws/install/simple_car_tf:/opt/ros/humble LD_LIBRARY_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ssafy/turtlebot3_ws/build/dynamixel_sdk_examples -- -j20 -l20
+[0.966s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[7.063s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[7.381s] [100%] Built target read_write_node
+[7.394s] Invoked command in '/home/ssafy/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:/home/ssafy/ssafy_ws/install/simple_car_tf:/opt/ros/humble LD_LIBRARY_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ssafy/turtlebot3_ws/build/dynamixel_sdk_examples -- -j20 -l20
+[7.396s] Invoking command in '/home/ssafy/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:/home/ssafy/ssafy_ws/install/simple_car_tf:/opt/ros/humble LD_LIBRARY_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ssafy/turtlebot3_ws/build/dynamixel_sdk_examples
+[7.405s] -- Install configuration: ""
+[7.405s] -- Execute custom install script
+[7.406s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[7.414s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+[7.425s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[7.435s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[7.441s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[7.452s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[7.460s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[7.470s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[7.481s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[7.490s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[7.499s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[7.509s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[7.516s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[7.524s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[7.534s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[7.541s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[7.547s] -- Symlinking: /home/ssafy/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[7.556s] Invoked command in '/home/ssafy/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk:/home/ssafy/ssafy_ws/install/simple_car_tf:/opt/ros/humble LD_LIBRARY_PATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ssafy/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ssafy/turtlebot3_ws/build/dynamixel_sdk_examples

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/urdf_practice/urdf_practice.egg-info/PKG-INFO
+writing dependency_links to ../../build/urdf_practice/urdf_practice.egg-info/dependency_links.txt
+writing requirements to ../../build/urdf_practice/urdf_practice.egg-info/requires.txt
+writing top-level names to ../../build/urdf_practice/urdf_practice.egg-info/top_level.txt
+reading manifest file '../../build/urdf_practice/urdf_practice.egg-info/SOURCES.txt'
+writing manifest file '../../build/urdf_practice/urdf_practice.egg-info/SOURCES.txt'
+running build
+running build_py
+copying urdf_practice/__init__.py -> /home/ssafy/ssafy_ws/build/urdf_practice/build/lib/urdf_practice
+running install
+running install_lib
+running install_data
+copying resource/urdf_practice -> /home/ssafy/ssafy_ws/install/urdf_practice/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/ssafy_ws/install/urdf_practice/share/urdf_practice
+running install_egg_info
+removing '/home/ssafy/ssafy_ws/install/urdf_practice/lib/python3.10/site-packages/urdf_practice-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/urdf_practice/urdf_practice.egg-info to /home/ssafy/ssafy_ws/install/urdf_practice/lib/python3.10/site-packages/urdf_practice-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ssafy/ssafy_ws/build/urdf_practice/install.log'

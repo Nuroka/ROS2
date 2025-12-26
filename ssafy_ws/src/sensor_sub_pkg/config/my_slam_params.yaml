@@ -1,0 +1,12 @@
+slam_toolbox:
+  ros__parameters:
+
+    use_sim_time: true
+
+    # Lidar 최대 인식 거리 (기본 3.5m)  
+    # 이번 데이터는 3.5m를 넘는 물체를 포함 → 5.0으로 확장
+    max_laser_range: 5.0
+
+    # Voxel 필터 크기 (기본 0.05)
+    # 필터 크기를 줄이면 더 많은 점 보존 → 0.025
+    voxel_size: 0.025

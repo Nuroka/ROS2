@@ -1,0 +1,7 @@
+[console_scripts]
+4007 = practice.4007:main
+4008 = practice.4008:main
+4014_1 = practice.4014_1:main
+4014_2 = practice.4014_2:main
+4014_3 = practice.4014_3:main
+yolov5 = practice.yolov5:main

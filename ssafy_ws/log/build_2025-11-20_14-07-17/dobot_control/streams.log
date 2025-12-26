@@ -1,0 +1,26 @@
+[1.232s] Invoking command in '/home/ssafy/ssafy_ws/src/dobot_control': PYTHONPATH=/home/ssafy/ssafy_ws/build/dobot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/dobot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_control build --build-base /home/ssafy/ssafy_ws/build/dobot_control/build install --record /home/ssafy/ssafy_ws/build/dobot_control/install.log --single-version-externally-managed install_data
+[1.444s] running egg_info
+[1.444s] writing ../../build/dobot_control/dobot_control.egg-info/PKG-INFO
+[1.444s] writing dependency_links to ../../build/dobot_control/dobot_control.egg-info/dependency_links.txt
+[1.444s] writing entry points to ../../build/dobot_control/dobot_control.egg-info/entry_points.txt
+[1.444s] writing requirements to ../../build/dobot_control/dobot_control.egg-info/requires.txt
+[1.444s] writing top-level names to ../../build/dobot_control/dobot_control.egg-info/top_level.txt
+[1.446s] reading manifest file '../../build/dobot_control/dobot_control.egg-info/SOURCES.txt'
+[1.446s] writing manifest file '../../build/dobot_control/dobot_control.egg-info/SOURCES.txt'
+[1.447s] running build
+[1.447s] running build_py
+[1.447s] copying dobot_control/suction_cup_control.py -> /home/ssafy/ssafy_ws/build/dobot_control/build/lib/dobot_control
+[1.447s] copying dobot_control/ptp_move.py -> /home/ssafy/ssafy_ws/build/dobot_control/build/lib/dobot_control
+[1.447s] running install
+[1.447s] running install_lib
+[1.448s] copying /home/ssafy/ssafy_ws/build/dobot_control/build/lib/dobot_control/suction_cup_control.py -> /home/ssafy/ssafy_ws/install/dobot_control/lib/python3.10/site-packages/dobot_control
+[1.448s] copying /home/ssafy/ssafy_ws/build/dobot_control/build/lib/dobot_control/ptp_move.py -> /home/ssafy/ssafy_ws/install/dobot_control/lib/python3.10/site-packages/dobot_control
+[1.448s] byte-compiling /home/ssafy/ssafy_ws/install/dobot_control/lib/python3.10/site-packages/dobot_control/suction_cup_control.py to suction_cup_control.cpython-310.pyc
+[1.448s] byte-compiling /home/ssafy/ssafy_ws/install/dobot_control/lib/python3.10/site-packages/dobot_control/ptp_move.py to ptp_move.cpython-310.pyc
+[1.449s] running install_data
+[1.449s] running install_egg_info
+[1.451s] removing '/home/ssafy/ssafy_ws/install/dobot_control/lib/python3.10/site-packages/dobot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.451s] Copying ../../build/dobot_control/dobot_control.egg-info to /home/ssafy/ssafy_ws/install/dobot_control/lib/python3.10/site-packages/dobot_control-0.0.0-py3.10.egg-info
+[1.451s] running install_scripts
+[1.468s] writing list of installed files to '/home/ssafy/ssafy_ws/build/dobot_control/install.log'
+[1.499s] Invoked command in '/home/ssafy/ssafy_ws/src/dobot_control' returned '0': PYTHONPATH=/home/ssafy/ssafy_ws/build/dobot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/dobot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_control build --build-base /home/ssafy/ssafy_ws/build/dobot_control/build install --record /home/ssafy/ssafy_ws/build/dobot_control/install.log --single-version-externally-managed install_data

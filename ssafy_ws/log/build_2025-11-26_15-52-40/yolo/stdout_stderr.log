@@ -1,0 +1,33 @@
+running egg_info
+writing ../../build/yolo/yolo.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolo/yolo.egg-info/dependency_links.txt
+writing entry points to ../../build/yolo/yolo.egg-info/entry_points.txt
+writing requirements to ../../build/yolo/yolo.egg-info/requires.txt
+writing top-level names to ../../build/yolo/yolo.egg-info/top_level.txt
+reading manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+writing manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying yolo/websocket_client.py -> /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo
+copying yolo/yolo_prac.py -> /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo
+copying yolo/yolo.py -> /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo
+copying yolo/pick_and_place.py -> /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo
+copying yolo/getDistance.py -> /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo
+copying yolo/get_3DPosition.py -> /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo
+copying yolo/__init__.py -> /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo
+running install
+running install_lib
+copying /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo/yolo_prac.py -> /home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages/yolo
+byte-compiling /home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages/yolo/yolo_prac.py to yolo_prac.cpython-310.pyc
+running install_data
+copying resource/yolo -> /home/ssafy/ssafy_ws/install/yolo/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/ssafy_ws/install/yolo/share/yolo
+running install_egg_info
+removing '/home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/yolo/yolo.egg-info to /home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing getDistance script to /home/ssafy/ssafy_ws/install/yolo/lib/yolo
+Installing websocket_client script to /home/ssafy/ssafy_ws/install/yolo/lib/yolo
+Installing yolo script to /home/ssafy/ssafy_ws/install/yolo/lib/yolo
+Installing yolo_prac script to /home/ssafy/ssafy_ws/install/yolo/lib/yolo
+writing list of installed files to '/home/ssafy/ssafy_ws/build/yolo/install.log'

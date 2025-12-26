@@ -1,0 +1,3 @@
+[console_scripts]
+ptp_move = dobot_control.ptp_move:main
+suction_cup_control = dobot_control.suction_cup_control:main

@@ -1,0 +1,30 @@
+[1.418s] Invoking command in '/home/ssafy/ssafy_ws/src/yolo': PYTHONPATH=/home/ssafy/ssafy_ws/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/ssafy/ssafy_ws/build/yolo/build install --record /home/ssafy/ssafy_ws/build/yolo/install.log --single-version-externally-managed install_data
+[1.616s] running egg_info
+[1.627s] writing ../../build/yolo/yolo.egg-info/PKG-INFO
+[1.627s] writing dependency_links to ../../build/yolo/yolo.egg-info/dependency_links.txt
+[1.627s] writing entry points to ../../build/yolo/yolo.egg-info/entry_points.txt
+[1.628s] writing requirements to ../../build/yolo/yolo.egg-info/requires.txt
+[1.628s] writing top-level names to ../../build/yolo/yolo.egg-info/top_level.txt
+[1.651s] reading manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+[1.652s] writing manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+[1.652s] running build
+[1.652s] running build_py
+[1.653s] copying yolo/websocket_client.py -> /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo
+[1.653s] copying yolo/get_3DPosition.py -> /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo
+[1.654s] copying yolo/__init__.py -> /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo
+[1.654s] running install
+[1.657s] running install_lib
+[1.669s] copying /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo/websocket_client.py -> /home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages/yolo
+[1.669s] copying /home/ssafy/ssafy_ws/build/yolo/build/lib/yolo/get_3DPosition.py -> /home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages/yolo
+[1.669s] byte-compiling /home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages/yolo/websocket_client.py to websocket_client.cpython-310.pyc
+[1.670s] byte-compiling /home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages/yolo/get_3DPosition.py to get_3DPosition.cpython-310.pyc
+[1.670s] running install_data
+[1.670s] copying resource/yolo -> /home/ssafy/ssafy_ws/install/yolo/share/ament_index/resource_index/packages
+[1.670s] copying package.xml -> /home/ssafy/ssafy_ws/install/yolo/share/yolo
+[1.671s] running install_egg_info
+[1.683s] removing '/home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info' (and everything under it)
+[1.683s] Copying ../../build/yolo/yolo.egg-info to /home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info
+[1.684s] running install_scripts
+[1.790s] Installing websocket_client script to /home/ssafy/ssafy_ws/install/yolo/lib/yolo
+[1.790s] writing list of installed files to '/home/ssafy/ssafy_ws/build/yolo/install.log'
+[1.834s] Invoked command in '/home/ssafy/ssafy_ws/src/yolo' returned '0': PYTHONPATH=/home/ssafy/ssafy_ws/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/ssafy/ssafy_ws/build/yolo/build install --record /home/ssafy/ssafy_ws/build/yolo/install.log --single-version-externally-managed install_data

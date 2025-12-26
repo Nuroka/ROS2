@@ -1,0 +1,32 @@
+[2.112s] Invoking command in '/home/ssafy/ssafy_ws/src/naver_clova': PYTHONPATH=/home/ssafy/ssafy_ws/build/naver_clova/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/naver_clova build --build-base /home/ssafy/ssafy_ws/build/naver_clova/build install --record /home/ssafy/ssafy_ws/build/naver_clova/install.log --single-version-externally-managed install_data
+[2.339s] running egg_info
+[2.339s] creating ../../build/naver_clova/naver_clova.egg-info
+[2.351s] writing ../../build/naver_clova/naver_clova.egg-info/PKG-INFO
+[2.352s] writing dependency_links to ../../build/naver_clova/naver_clova.egg-info/dependency_links.txt
+[2.352s] writing requirements to ../../build/naver_clova/naver_clova.egg-info/requires.txt
+[2.352s] writing top-level names to ../../build/naver_clova/naver_clova.egg-info/top_level.txt
+[2.352s] writing manifest file '../../build/naver_clova/naver_clova.egg-info/SOURCES.txt'
+[2.378s] reading manifest file '../../build/naver_clova/naver_clova.egg-info/SOURCES.txt'
+[2.379s] writing manifest file '../../build/naver_clova/naver_clova.egg-info/SOURCES.txt'
+[2.379s] running build
+[2.379s] running build_py
+[2.379s] creating /home/ssafy/ssafy_ws/build/naver_clova/build
+[2.379s] creating /home/ssafy/ssafy_ws/build/naver_clova/build/lib
+[2.379s] creating /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova
+[2.380s] copying naver_clova/__init__.py -> /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova
+[2.380s] running install
+[2.384s] running install_lib
+[2.396s] creating /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova
+[2.396s] copying /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova/__init__.py -> /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova
+[2.397s] byte-compiling /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova/__init__.py to __init__.cpython-310.pyc
+[2.397s] running install_data
+[2.397s] creating /home/ssafy/ssafy_ws/install/naver_clova/share/ament_index
+[2.397s] creating /home/ssafy/ssafy_ws/install/naver_clova/share/ament_index/resource_index
+[2.397s] creating /home/ssafy/ssafy_ws/install/naver_clova/share/ament_index/resource_index/packages
+[2.397s] copying resource/naver_clova -> /home/ssafy/ssafy_ws/install/naver_clova/share/ament_index/resource_index/packages
+[2.398s] copying package.xml -> /home/ssafy/ssafy_ws/install/naver_clova/share/naver_clova
+[2.398s] running install_egg_info
+[2.411s] Copying ../../build/naver_clova/naver_clova.egg-info to /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova-0.0.0-py3.10.egg-info
+[2.411s] running install_scripts
+[2.524s] writing list of installed files to '/home/ssafy/ssafy_ws/build/naver_clova/install.log'
+[2.546s] Invoked command in '/home/ssafy/ssafy_ws/src/naver_clova' returned '0': PYTHONPATH=/home/ssafy/ssafy_ws/build/naver_clova/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/naver_clova build --build-base /home/ssafy/ssafy_ws/build/naver_clova/build install --record /home/ssafy/ssafy_ws/build/naver_clova/install.log --single-version-externally-managed install_data

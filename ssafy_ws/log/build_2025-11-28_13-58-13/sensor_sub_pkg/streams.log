@@ -1,0 +1,29 @@
+[1.965s] Invoking command in '/home/ssafy/ssafy_ws/src/sensor_sub_pkg': PYTHONPATH=/home/ssafy/ssafy_ws/build/sensor_sub_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_sub_pkg build --build-base /home/ssafy/ssafy_ws/build/sensor_sub_pkg/build install --record /home/ssafy/ssafy_ws/build/sensor_sub_pkg/install.log --single-version-externally-managed install_data
+[2.178s] running egg_info
+[2.190s] writing ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/PKG-INFO
+[2.190s] writing dependency_links to ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/dependency_links.txt
+[2.191s] writing entry points to ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/entry_points.txt
+[2.191s] writing requirements to ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/requires.txt
+[2.191s] writing top-level names to ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/top_level.txt
+[2.216s] reading manifest file '../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/SOURCES.txt'
+[2.217s] writing manifest file '../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/SOURCES.txt'
+[2.217s] running build
+[2.217s] running build_py
+[2.217s] copying sensor_sub_pkg/odom_subscriber.py -> /home/ssafy/ssafy_ws/build/sensor_sub_pkg/build/lib/sensor_sub_pkg
+[2.217s] copying sensor_sub_pkg/imu_subscriber.py -> /home/ssafy/ssafy_ws/build/sensor_sub_pkg/build/lib/sensor_sub_pkg
+[2.218s] copying sensor_sub_pkg/laser_subscriber.py -> /home/ssafy/ssafy_ws/build/sensor_sub_pkg/build/lib/sensor_sub_pkg
+[2.218s] copying sensor_sub_pkg/__init__.py -> /home/ssafy/ssafy_ws/build/sensor_sub_pkg/build/lib/sensor_sub_pkg
+[2.218s] running install
+[2.223s] running install_lib
+[2.236s] running install_data
+[2.236s] copying resource/sensor_sub_pkg -> /home/ssafy/ssafy_ws/install/sensor_sub_pkg/share/ament_index/resource_index/packages
+[2.236s] copying package.xml -> /home/ssafy/ssafy_ws/install/sensor_sub_pkg/share/sensor_sub_pkg
+[2.236s] running install_egg_info
+[2.250s] removing '/home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/python3.10/site-packages/sensor_sub_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.250s] Copying ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info to /home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/python3.10/site-packages/sensor_sub_pkg-0.0.0-py3.10.egg-info
+[2.250s] running install_scripts
+[2.367s] Installing imu_sub script to /home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/sensor_sub_pkg
+[2.367s] Installing laser_sub script to /home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/sensor_sub_pkg
+[2.367s] Installing odom_sub script to /home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/sensor_sub_pkg
+[2.368s] writing list of installed files to '/home/ssafy/ssafy_ws/build/sensor_sub_pkg/install.log'
+[2.403s] Invoked command in '/home/ssafy/ssafy_ws/src/sensor_sub_pkg' returned '0': PYTHONPATH=/home/ssafy/ssafy_ws/build/sensor_sub_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_sub_pkg build --build-base /home/ssafy/ssafy_ws/build/sensor_sub_pkg/build install --record /home/ssafy/ssafy_ws/build/sensor_sub_pkg/install.log --single-version-externally-managed install_data

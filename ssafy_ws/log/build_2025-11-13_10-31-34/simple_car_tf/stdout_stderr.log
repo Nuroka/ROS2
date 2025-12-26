@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/simple_car_tf/simple_car_tf.egg-info/PKG-INFO
+writing dependency_links to ../../build/simple_car_tf/simple_car_tf.egg-info/dependency_links.txt
+writing entry points to ../../build/simple_car_tf/simple_car_tf.egg-info/entry_points.txt
+writing requirements to ../../build/simple_car_tf/simple_car_tf.egg-info/requires.txt
+writing top-level names to ../../build/simple_car_tf/simple_car_tf.egg-info/top_level.txt
+reading manifest file '../../build/simple_car_tf/simple_car_tf.egg-info/SOURCES.txt'
+writing manifest file '../../build/simple_car_tf/simple_car_tf.egg-info/SOURCES.txt'
+running build
+running build_py
+copying simple_car_tf/move_car.py -> /home/ssafy/ssafy_ws/build/simple_car_tf/build/lib/simple_car_tf
+running install
+running install_lib
+copying /home/ssafy/ssafy_ws/build/simple_car_tf/build/lib/simple_car_tf/move_car.py -> /home/ssafy/ssafy_ws/install/simple_car_tf/lib/python3.10/site-packages/simple_car_tf
+byte-compiling /home/ssafy/ssafy_ws/install/simple_car_tf/lib/python3.10/site-packages/simple_car_tf/move_car.py to move_car.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ssafy/ssafy_ws/install/simple_car_tf/lib/python3.10/site-packages/simple_car_tf-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/simple_car_tf/simple_car_tf.egg-info to /home/ssafy/ssafy_ws/install/simple_car_tf/lib/python3.10/site-packages/simple_car_tf-0.0.0-py3.10.egg-info
+running install_scripts
+Installing move_car script to /home/ssafy/ssafy_ws/install/simple_car_tf/lib/simple_car_tf
+writing list of installed files to '/home/ssafy/ssafy_ws/build/simple_car_tf/install.log'

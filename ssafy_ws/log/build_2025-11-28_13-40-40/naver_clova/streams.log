@@ -1,0 +1,37 @@
+[2.096s] Invoking command in '/home/ssafy/ssafy_ws/src/naver_clova': PYTHONPATH=/home/ssafy/ssafy_ws/build/naver_clova/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/naver_clova build --build-base /home/ssafy/ssafy_ws/build/naver_clova/build install --record /home/ssafy/ssafy_ws/build/naver_clova/install.log --single-version-externally-managed install_data
+[2.379s] running egg_info
+[2.391s] writing ../../build/naver_clova/naver_clova.egg-info/PKG-INFO
+[2.392s] writing dependency_links to ../../build/naver_clova/naver_clova.egg-info/dependency_links.txt
+[2.392s] writing requirements to ../../build/naver_clova/naver_clova.egg-info/requires.txt
+[2.392s] writing top-level names to ../../build/naver_clova/naver_clova.egg-info/top_level.txt
+[2.415s] reading manifest file '../../build/naver_clova/naver_clova.egg-info/SOURCES.txt'
+[2.416s] writing manifest file '../../build/naver_clova/naver_clova.egg-info/SOURCES.txt'
+[2.416s] running build
+[2.416s] running build_py
+[2.416s] copying naver_clova/speech_to_text.py -> /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova
+[2.416s] copying naver_clova/clova_voice.py -> /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova
+[2.416s] copying naver_clova/tts.py -> /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova
+[2.417s] copying naver_clova/clova_voice2.py -> /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova
+[2.417s] copying naver_clova/__init__.py -> /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova
+[2.417s] copying naver_clova/speech_recognizer.py -> /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova
+[2.417s] running install
+[2.421s] running install_lib
+[2.433s] copying /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova/speech_to_text.py -> /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova
+[2.433s] copying /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova/clova_voice.py -> /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova
+[2.433s] copying /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova/tts.py -> /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova
+[2.433s] copying /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova/clova_voice2.py -> /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova
+[2.433s] copying /home/ssafy/ssafy_ws/build/naver_clova/build/lib/naver_clova/speech_recognizer.py -> /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova
+[2.434s] byte-compiling /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova/speech_to_text.py to speech_to_text.cpython-310.pyc
+[2.434s] byte-compiling /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova/clova_voice.py to clova_voice.cpython-310.pyc
+[2.434s] byte-compiling /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova/tts.py to tts.cpython-310.pyc
+[2.435s] byte-compiling /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova/clova_voice2.py to clova_voice2.cpython-310.pyc
+[2.435s] byte-compiling /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova/speech_recognizer.py to speech_recognizer.cpython-310.pyc
+[2.436s] running install_data
+[2.436s] copying resource/naver_clova -> /home/ssafy/ssafy_ws/install/naver_clova/share/ament_index/resource_index/packages
+[2.436s] copying package.xml -> /home/ssafy/ssafy_ws/install/naver_clova/share/naver_clova
+[2.436s] running install_egg_info
+[2.448s] removing '/home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova-0.0.0-py3.10.egg-info' (and everything under it)
+[2.449s] Copying ../../build/naver_clova/naver_clova.egg-info to /home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages/naver_clova-0.0.0-py3.10.egg-info
+[2.449s] running install_scripts
+[2.543s] writing list of installed files to '/home/ssafy/ssafy_ws/build/naver_clova/install.log'
+[2.558s] Invoked command in '/home/ssafy/ssafy_ws/src/naver_clova' returned '0': PYTHONPATH=/home/ssafy/ssafy_ws/build/naver_clova/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/naver_clova/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/naver_clova build --build-base /home/ssafy/ssafy_ws/build/naver_clova/build install --record /home/ssafy/ssafy_ws/build/naver_clova/install.log --single-version-externally-managed install_data

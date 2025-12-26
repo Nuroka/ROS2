@@ -1,0 +1,28 @@
+[2.097s] Invoking command in '/home/ssafy/ssafy_ws/src/intergrate_prac': PYTHONPATH=/home/ssafy/ssafy_ws/build/intergrate_prac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/intergrate_prac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/intergrate_prac build --build-base /home/ssafy/ssafy_ws/build/intergrate_prac/build install --record /home/ssafy/ssafy_ws/build/intergrate_prac/install.log --single-version-externally-managed install_data
+[2.294s] running egg_info
+[2.305s] writing ../../build/intergrate_prac/intergrate_prac.egg-info/PKG-INFO
+[2.305s] writing dependency_links to ../../build/intergrate_prac/intergrate_prac.egg-info/dependency_links.txt
+[2.305s] writing entry points to ../../build/intergrate_prac/intergrate_prac.egg-info/entry_points.txt
+[2.306s] writing requirements to ../../build/intergrate_prac/intergrate_prac.egg-info/requires.txt
+[2.306s] writing top-level names to ../../build/intergrate_prac/intergrate_prac.egg-info/top_level.txt
+[2.328s] reading manifest file '../../build/intergrate_prac/intergrate_prac.egg-info/SOURCES.txt'
+[2.329s] writing manifest file '../../build/intergrate_prac/intergrate_prac.egg-info/SOURCES.txt'
+[2.329s] running build
+[2.329s] running build_py
+[2.329s] copying intergrate_prac/image_subscriber.py -> /home/ssafy/ssafy_ws/build/intergrate_prac/build/lib/intergrate_prac
+[2.329s] copying intergrate_prac/face_recognize.py -> /home/ssafy/ssafy_ws/build/intergrate_prac/build/lib/intergrate_prac
+[2.329s] copying intergrate_prac/__init__.py -> /home/ssafy/ssafy_ws/build/intergrate_prac/build/lib/intergrate_prac
+[2.330s] running install
+[2.334s] running install_lib
+[2.345s] running install_data
+[2.345s] copying resource/intergrate_prac -> /home/ssafy/ssafy_ws/install/intergrate_prac/share/ament_index/resource_index/packages
+[2.345s] copying package.xml -> /home/ssafy/ssafy_ws/install/intergrate_prac/share/intergrate_prac
+[2.346s] copying launch/intergrate.launch.py -> /home/ssafy/ssafy_ws/install/intergrate_prac/share/intergrate_prac/launch
+[2.346s] copying launch/visualization.launch.py -> /home/ssafy/ssafy_ws/install/intergrate_prac/share/intergrate_prac/launch
+[2.346s] running install_egg_info
+[2.358s] removing '/home/ssafy/ssafy_ws/install/intergrate_prac/lib/python3.10/site-packages/intergrate_prac-0.0.0-py3.10.egg-info' (and everything under it)
+[2.358s] Copying ../../build/intergrate_prac/intergrate_prac.egg-info to /home/ssafy/ssafy_ws/install/intergrate_prac/lib/python3.10/site-packages/intergrate_prac-0.0.0-py3.10.egg-info
+[2.358s] running install_scripts
+[2.453s] Installing image_subscriber script to /home/ssafy/ssafy_ws/install/intergrate_prac/lib/intergrate_prac
+[2.453s] writing list of installed files to '/home/ssafy/ssafy_ws/build/intergrate_prac/install.log'
+[2.471s] Invoked command in '/home/ssafy/ssafy_ws/src/intergrate_prac' returned '0': PYTHONPATH=/home/ssafy/ssafy_ws/build/intergrate_prac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/intergrate_prac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/intergrate_prac build --build-base /home/ssafy/ssafy_ws/build/intergrate_prac/build install --record /home/ssafy/ssafy_ws/build/intergrate_prac/install.log --single-version-externally-managed install_data

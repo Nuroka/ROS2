@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/slam_control/slam_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/slam_control/slam_control.egg-info/dependency_links.txt
+deleting ../../build/slam_control/slam_control.egg-info/entry_points.txt
+writing requirements to ../../build/slam_control/slam_control.egg-info/requires.txt
+writing top-level names to ../../build/slam_control/slam_control.egg-info/top_level.txt
+reading manifest file '../../build/slam_control/slam_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/slam_control/slam_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying slam_control/waypoints_move.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+copying slam_control/patrol_move.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+copying slam_control/init_pose.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+copying slam_control/waypoints_follwer.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+copying slam_control/simple_move.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+copying slam_control/__init__.py -> /home/ssafy/ssafy_ws/build/slam_control/build/lib/slam_control
+running install
+running install_lib
+running install_data
+copying resource/slam_control -> /home/ssafy/ssafy_ws/install/slam_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/ssafy_ws/install/slam_control/share/slam_control
+running install_egg_info
+removing '/home/ssafy/ssafy_ws/install/slam_control/lib/python3.10/site-packages/slam_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/slam_control/slam_control.egg-info to /home/ssafy/ssafy_ws/install/slam_control/lib/python3.10/site-packages/slam_control-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ssafy/ssafy_ws/build/slam_control/install.log'

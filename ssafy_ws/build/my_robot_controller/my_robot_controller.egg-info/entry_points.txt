@@ -1,0 +1,2 @@
+[console_scripts]
+move_forward = my_robot_controller.forward_node:main

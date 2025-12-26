@@ -1,0 +1,25 @@
+[1.793s] Invoking command in '/home/ssafy/ssafy_ws/src/urdf_practice': PYTHONPATH=/home/ssafy/ssafy_ws/build/urdf_practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/urdf_practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_practice build --build-base /home/ssafy/ssafy_ws/build/urdf_practice/build install --record /home/ssafy/ssafy_ws/build/urdf_practice/install.log --single-version-externally-managed install_data
+[2.042s] running egg_info
+[2.054s] writing ../../build/urdf_practice/urdf_practice.egg-info/PKG-INFO
+[2.055s] writing dependency_links to ../../build/urdf_practice/urdf_practice.egg-info/dependency_links.txt
+[2.055s] writing entry points to ../../build/urdf_practice/urdf_practice.egg-info/entry_points.txt
+[2.055s] writing requirements to ../../build/urdf_practice/urdf_practice.egg-info/requires.txt
+[2.055s] writing top-level names to ../../build/urdf_practice/urdf_practice.egg-info/top_level.txt
+[2.081s] reading manifest file '../../build/urdf_practice/urdf_practice.egg-info/SOURCES.txt'
+[2.081s] writing manifest file '../../build/urdf_practice/urdf_practice.egg-info/SOURCES.txt'
+[2.082s] running build
+[2.082s] running build_py
+[2.082s] copying urdf_practice/__init__.py -> /home/ssafy/ssafy_ws/build/urdf_practice/build/lib/urdf_practice
+[2.082s] running install
+[2.087s] running install_lib
+[2.100s] running install_data
+[2.100s] copying resource/urdf_practice -> /home/ssafy/ssafy_ws/install/urdf_practice/share/ament_index/resource_index/packages
+[2.100s] copying package.xml -> /home/ssafy/ssafy_ws/install/urdf_practice/share/urdf_practice
+[2.100s] copying launch/urdf_practice.launch.py -> /home/ssafy/ssafy_ws/install/urdf_practice/share/urdf_practice/launch
+[2.100s] running install_egg_info
+[2.113s] removing '/home/ssafy/ssafy_ws/install/urdf_practice/lib/python3.10/site-packages/urdf_practice-0.0.0-py3.10.egg-info' (and everything under it)
+[2.113s] Copying ../../build/urdf_practice/urdf_practice.egg-info to /home/ssafy/ssafy_ws/install/urdf_practice/lib/python3.10/site-packages/urdf_practice-0.0.0-py3.10.egg-info
+[2.114s] running install_scripts
+[2.221s] Installing urdf_practice script to /home/ssafy/ssafy_ws/install/urdf_practice/lib/urdf_practice
+[2.222s] writing list of installed files to '/home/ssafy/ssafy_ws/build/urdf_practice/install.log'
+[2.251s] Invoked command in '/home/ssafy/ssafy_ws/src/urdf_practice' returned '0': PYTHONPATH=/home/ssafy/ssafy_ws/build/urdf_practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ssafy_ws/install/urdf_practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_practice build --build-base /home/ssafy/ssafy_ws/build/urdf_practice/build install --record /home/ssafy/ssafy_ws/build/urdf_practice/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+[console_scripts]
+move_car = simple_car_tf.move_car:main

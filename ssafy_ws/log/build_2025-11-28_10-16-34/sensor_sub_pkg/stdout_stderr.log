@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/requires.txt
+writing top-level names to ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/top_level.txt
+reading manifest file '../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sensor_sub_pkg/odom_subscriber.py -> /home/ssafy/ssafy_ws/build/sensor_sub_pkg/build/lib/sensor_sub_pkg
+copying sensor_sub_pkg/imu_subscriber.py -> /home/ssafy/ssafy_ws/build/sensor_sub_pkg/build/lib/sensor_sub_pkg
+copying sensor_sub_pkg/laser_subscriber.py -> /home/ssafy/ssafy_ws/build/sensor_sub_pkg/build/lib/sensor_sub_pkg
+copying sensor_sub_pkg/__init__.py -> /home/ssafy/ssafy_ws/build/sensor_sub_pkg/build/lib/sensor_sub_pkg
+running install
+running install_lib
+running install_data
+copying resource/sensor_sub_pkg -> /home/ssafy/ssafy_ws/install/sensor_sub_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/ssafy_ws/install/sensor_sub_pkg/share/sensor_sub_pkg
+running install_egg_info
+removing '/home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/python3.10/site-packages/sensor_sub_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/sensor_sub_pkg/sensor_sub_pkg.egg-info to /home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/python3.10/site-packages/sensor_sub_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_sub script to /home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/sensor_sub_pkg
+Installing laser_sub script to /home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/sensor_sub_pkg
+Installing odom_sub script to /home/ssafy/ssafy_ws/install/sensor_sub_pkg/lib/sensor_sub_pkg
+writing list of installed files to '/home/ssafy/ssafy_ws/build/sensor_sub_pkg/install.log'

@@ -1,0 +1,2 @@
+[console_scripts]
+urdf_practice = urdf_practice.urdf_practice:main
